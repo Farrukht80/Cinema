@@ -1,5 +1,9 @@
 @media (max-width:1200px) {
-    
+    .films__block,.collect__block{
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 15px;
+    }
 }
 @media (max-width:992px) {
     
@@ -11,6 +15,14 @@
         margin-bottom: 10px;
     }
     .intro__text{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .widow__image{
+        width: 60%;
+        margin-bottom: 15px;
+    }
+    .widow__text{
         width: 100%;
         margin-bottom: 15px;
     }
